@@ -1,0 +1,237 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,353;0,400;0,417;0,700;1,300&display=swap');
+
+.parallax{
+        background-image:url("med.jpg");
+        max-height: 100%;
+        
+background-attachment: scroll;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+opacity: 0.95;
+box-sizing: border-box;
+}
+
+
+.border{
+  position: fixed;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+ font-family: 'Rubik', sans-serif;
+        }
+
+.caption span.border{
+color: rgba(255, 255, 255, 0.945);
+  padding: 18px;
+  font-size:45px;
+  letter-spacing: 10px;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  background-color:#da4e3c ;
+}
+.caption span.title{
+    display: block;
+    font-size: 5vw;
+    color: black;
+    letter-spacing: 10px;
+}
+
+
+body,html{
+
+margin-bottom: 25px;
+text-align: justify;
+background-color: rgb(255, 250, 250);
+ font-family: 'Rubik', sans-serif;
+ font-weight: lighter;
+}
+ 
+ 
+
+ 
+
+
+h1,h2,h4,h5{
+        color: rgba(202, 52, 15, 0.959);
+        margin-left: 8%;
+}
+h2{
+       font-size: 250%;
+        text-align: left;
+        display: block;
+        margin-bottom: 2%;
+        margin-top: 8%;
+        margin-left: %;
+margin-right: 5%;
+        
+        }
+h4{
+        font-size: 150%;
+}
+@media screen and (max-width:800px){
+        h4{
+                font-size: 110%;
+                text-align: left;
+}
+}
+h5{
+        font-size: 30px;
+        text-align: right;
+            }
+            @media screen and (max-width: 800px){
+                    h5{
+                            font-size: 110%;
+                    }
+            }
+p, .row, .main{
+        display: block;
+        color:rgb(0, 0, 0);
+        font-family: 'Rubik', sans-serif;
+        font-size: 115%;
+       line-height: 25px;
+      font-weight: lighter; 
+      
+      box-sizing: border-box;
+}
+@media screen and (max-width: 800px){
+        p, .row, .main{
+        font-size: 100% ;
+        width: 100%;
+        
+        
+}
+}
+
+
+.parent, .child-one, .child-two, .child-three, .child-four, .child-five, .child-six, .child-seven{
+        display:block;
+        color:rgb(0, 0, 0);
+        font-family: 'Rubik', sans-serif;
+        font-size: 130%;
+        margin-left: 8%;
+      margin-right: 8%;
+      line-height: 25px;
+      font-weight: lighter; 
+      margin-top: 2%;
+
+}
+@media screen and (max-width: 800px){
+        .parent, .child-one, .child-two, .child-trhee, .child-four, .child-five, .child-six{
+        font-size: 100% ;
+}
+}
+
+ a,b1 {
+    color: rgba(184, 80, 11, 0.966);
+         }
+ b{
+    color: black;
+        }
+img{
+     
+       
+        margin: 0 2%;
+        padding: 10%;
+        padding: 0.9%;
+      
+           }
+.responsive{
+        max-width:55%;
+        max-height:150%;
+        height: 120%;
+        float: right;
+}
+
+        @media screen and (max-width: 800px){
+                .responsive{
+                max-width: 85%;
+                height: 65% ;
+                clear: both;
+                float: none;
+                
+                margin-left: 25px;
+        }
+        }
+.responsive2{
+        max-width:50%;
+        max-height:60%;
+        
+        float: right;
+}
+@media screen and (max-width: 800px){
+        .responsive2{
+        max-width:42%;
+        height:40% ;
+        float: right;
+        }        
+}
+
+.responsive3{
+        max-width:120%;
+        max-height:80%;
+        float: left;
+        
+}
+@media screen and (max-width: 800px){
+        .responsive3{
+        max-width:70%;
+        height:50% ;
+        float:none;
+        margin-left: 15%;
+        }        
+}
+
+
+b1{
+     color: rgba(184, 80, 11, 0.966);
+         }
+aside{
+     clear: right;
+            }
+section{
+
+clear: right;
+width: 100%;
+            }
+ footer{
+     padding: 1.5%;
+    background-color: brown;
+    margin: 3%;
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: left;
+     display: block
+            }
+f{
+     color: white;
+            }
+
+ 
+
+     
+
+
+        
+
+        
+
+
+        
+
+
+
+
+          
+
+
+
+
+
+
+
+</style>
+

@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,353;0,400;0,417;0,700;1,300&display=swap');
+.parallax{
+        background-image:url("med.jpg");
+        height: 105%;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+opacity: 0.95;
+         }
+
+.border{
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+ font-family: 'Rubik', sans-serif;
+        }
+
+.caption span.border{
+color: rgb(255, 0, 0);
+  padding: 18px;
+  font-size:45px;
+  letter-spacing: 10px;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  background-color: floralwhite;
+  
+  }
+
+body,html{
+height: 100%;
+margin-top: 0px;
+text-align: justify;
+background-color: whitesmoke;
+margin-left: 2%;
+ font-family: 'Rubik', sans-serif;
+ 
+ }
+h1,h2,h4,h5{
+        color: rgba(202, 52, 15, 0.959);
+       }
+
+h2{
+                font-size: 30px;
+                    text-align: left;
+                    display: block;
+                    margin-bottom: 2%;
+                    margin-top: 5%;
+              }
+        
+p{
+        display:block;
+        color:black;
+        font-family: 'Rubik', sans-serif;
+        font-size: 17px;
+        
+        }
+
+
+
+    a {
+    color: rgba(184, 80, 11, 0.966);
+         }
+ b{
+    color: black;
+        }
+img{
+     float: right;
+     margin: 0 2%;
+     padding: 10%;
+     padding: 0.9%;
+    clear: left;
+           }
+          
+b1{
+     color: rgba(184, 80, 11, 0.966);
+         }
+aside{
+     clear: right;
+            }
+section{
+
+clear: right;
+width: 100%;
+            }
+ footer{
+     padding: 1.5%;
+    background-color: brown;
+    margin: 3%;
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: left;
+     display: block
+            }
+f{
+     color: white;
+            }
+
+ h5{
+    font-size: 30px;
+    text-align: right;
+        }
+
+
+            
